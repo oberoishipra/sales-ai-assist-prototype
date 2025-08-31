@@ -1,0 +1,31 @@
+:root {
+  --bg: #000000;
+  --panel: #0b0b0b;
+  --text: #ffffff;
+  --border: #2a2a2a;
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: sans-serif;
+}
+textarea, input, button {
+  width: 100%;
+  margin-top: 8px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: #111;
+  color: var(--text);
+}
+button { cursor: pointer; }
+.result {
+  margin-top: 12px;
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #0a0a0a;
+  min-height: 150px;
+  white-space: pre-wrap;
+}
