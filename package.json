@@ -1,7 +1,6 @@
 {
   "name": "sales-ai-assist-hf",
   "version": "1.0.0",
-  "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,12 +9,12 @@
   },
   "dependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
     "node-fetch": "^2.6.12"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^4.3.1",
-    "vite": "^5.4.2"
+    "vite": "^5.4.2",
+    "@vitejs/plugin-react": "^4.3.1"
   },
   "engines": {
     "node": "18.x"
